@@ -27,6 +27,14 @@ h1{
 li{
     list-style:none;
 }
+button {
+	background: none;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
 .floating_menu{
     height: 100vh;
     width: 100%;
@@ -156,7 +164,7 @@ li{
 }
 
 .section_content{
-    padding: 35px 10px 90px 0px ;
+    padding: 25px 10px 90px 10px ;
 
 }
 
@@ -308,41 +316,59 @@ li{
 }
 
 .work_content1{
-    width: 300px;
+    max-width :300px;
+    width: 100%;
+    max-height :160px;
+    height: 100%;
+    
+    border-style: solid ;
+    border-width: 1px;
+    border-color: #000;
+
     margin-right: 30px;
     position: relative;
+
+
+    .content1{
+    max-width :300px;
+    max-height :160px;
+    height: 100%;
+    width: 100%;
+
+        img{
+    max-width :300px;
+    max-height :160px;
+    height: 100%;
+    width: 100%;
+        }
+    }
+
 
     h3{
         position: absolute;
         bottom: 0;
         padding: 2px 4px 2px 4px;
         font-size: 12px;
-
         background-color: #000;
         color: #fff;
 
     }
 
 
-    .content1{
-        width:300px;
-        margin-right: 40px;
-        border-style: solid ;
-        border-width: 1px;
-        border-color: #000;
-
-
-
-        img{
-            width: 100%;
-        }
-    }
 }
 
 .work_content2{
-    width: 300px;
+    max-width :300px;
+        width: 100%;
+
+    max-height :160px;
+    height: 100%;
     margin-right: 30px;
     position: relative;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: #000;
+
 
     h3{
         position: absolute;
@@ -357,15 +383,19 @@ li{
 
 
     .content2{
-        width:300px;
+    max-width :300px;
+            width: 100%;
+
+    max-height :160px;
+    height: 100%;
         margin-right: 40px;
-        border-style: solid ;
-        border-width: 1px;
-        border-color: #000;
 
         img{
-            width: 300px;
-        }
+    max-width :300px;
+            width: 100%;
+    max-height :160px;
+    height: 100%;
+                }
     }
     
 }
@@ -392,14 +422,18 @@ li{
     font-weight:100;
 }
 
+// contact
 #contact{
-    width: 100%;
+    
     font-weight: 700;
-    margin-top: 40px;
 }
 #contact label{
     font-size:13px;
     color: #4D4D4D;
+}
+.form{
+    margin-top: 20px;
+
 }
 .contact_item1{
     display: flex;
@@ -409,34 +443,39 @@ li{
 }
 .contact_item1_name{
     width: 50%;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .contact_item1_mail{
     width: 50%;
-    margin-left: 15px;
+    margin-left: 0px;
 
 }
 #contact_name{
+         box-sizing:border-box;
+
     width: 100%;
     height: 28px;
     background-color: #F9F9F9;
     border-color: #E0E0E0;
     border-style: solid;
     border-width:1px;
-    padding-left: 6px;
+    padding-left: 1px;
 
 }
 #contact_mail{
+         box-sizing:border-box;
+
     width: 100%;
     height: 28px;
     background-color: #F9F9F9;
     border-color: #E0E0E0;
     border-style: solid;
     border-width:1px;
-    padding-left: 6px;
+    padding-left: 10px;
 
 }
 #contact_message{
+     box-sizing:border-box;
     width: 100%;
     height: 70px;
     background-color: #F9F9F9;
@@ -444,7 +483,7 @@ li{
     border-style: solid;
     border-width:1px;
     padding-top: 8px;
-    padding-left: 6px;
+    padding-left: 10px;
 
 }
 #err_textarea{
@@ -484,12 +523,18 @@ li{
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    padding: 20px 20px 30px 20px;
     z-index: 10000;
     background-color: #FFF;
 
     .modal_title{
         font-size: 16px;
+    }
+
+    .modal_main_section{
+            padding: 10px 20px 20px 20px;
+
+
+
     }
 
     .modal_item{
@@ -501,18 +546,20 @@ li{
         font-weight: 900;
     }
 
+    .close_button_section{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+    }
 
     .close_button{
-    position: absolute;
-    top: 0;
-    right: 0;
-    cursor: pointer;
+        cursor: pointer;
+        width: 12px;
+        height: 12px;
+        margin-top: 5px;
+        margin-right: 10px;
 
-    &::after{
-    content: 'x';
-    height: 10px;
-    width: 10px;
-            }
+
     }
         
     .modal_button{
@@ -541,7 +588,7 @@ li{
     align-items: center;
 
     #success_box{
-        padding-left: 20px;;
+        padding-left: 20px;
     }
 
     .main_message{

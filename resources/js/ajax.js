@@ -5,7 +5,6 @@ const modal_name =  $('input[name="modal_name"]').val();
 const modal_email =  $('input[name="modal_email"]').val();
 const modal_message =  $('input[name="modal_message"]').val();
 
-
 $.ajax({
     headers: {
     "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
@@ -34,7 +33,9 @@ $.ajax({
     }
 
 
-    modal_section.css('display','none')
+
+
+    $('#modal_section').css('display','none')
 
     })
     .fail( function () {

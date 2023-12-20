@@ -1,1 +1,204 @@
-(()=>{var a,e={272:()=>{$(".modal_button");jQuery((function(a){a(".modal_button").click((function(){var e=a('input[name="modal_name"]').val(),n=a('input[name="modal_email"]').val(),t=a('input[name="modal_message"]').val();return a.ajax({headers:{"X-CSRF-TOKEN":a('meta[name="csrf-token"]').attr("content")},type:"POST",dataType:"json",url:"/post_mail",data:{name:e,email:n,message:t}}).done((function(e){a("#contact input").val(""),a("#contact textarea").val(""),a("#contact").empty(),a("#contact").append('<div id="contact_success"><div id="success_box"><p class="main_message">送信完了しました。</p></div></div>');var n=["お問合せありがとうございます。","確認として自動メールをお送りさせていただいております。","お問合せ内容につきましては、近日中にご返信させていただきます。"];for(i=0;i<n.length;i++)a("#success_box").append('<p class="sub_message">'+n[i]+"</p>");modal_section.css("display","none")})).fail((function(){alert("メールの送信に失敗しました")})),!1}))}))},493:()=>{}},n={};function t(a){var o=n[a];if(void 0!==o)return o.exports;var r=n[a]={exports:{}};return e[a](r,r.exports,t),r.exports}t.m=e,a=[],t.O=(e,n,o,r)=>{if(!n){var s=1/0;for(p=0;p<a.length;p++){for(var[n,o,r]=a[p],i=!0,c=0;c<n.length;c++)(!1&r||s>=r)&&Object.keys(t.O).every((a=>t.O[a](n[c])))?n.splice(c--,1):(i=!1,r<s&&(s=r));if(i){a.splice(p--,1);var l=o();void 0!==l&&(e=l)}}return e}r=r||0;for(var p=a.length;p>0&&a[p-1][2]>r;p--)a[p]=a[p-1];a[p]=[n,o,r]},t.o=(a,e)=>Object.prototype.hasOwnProperty.call(a,e),(()=>{var a={452:0,16:0};t.O.j=e=>0===a[e];var e=(e,n)=>{var o,r,[s,i,c]=n,l=0;if(s.some((e=>0!==a[e]))){for(o in i)t.o(i,o)&&(t.m[o]=i[o]);if(c)var p=c(t)}for(e&&e(n);l<s.length;l++)r=s[l],t.o(a,r)&&a[r]&&a[r][0](),a[r]=0;return t.O(p)},n=self.webpackChunk=self.webpackChunk||[];n.forEach(e.bind(null,0)),n.push=e.bind(null,n.push.bind(n))})(),t.O(void 0,[16],(()=>t(272)));var o=t.O(void 0,[16],(()=>t(493)));o=t.O(o)})();
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/js/ajax.js":
+/*!******************************!*\
+  !*** ./resources/js/ajax.js ***!
+  \******************************/
+/***/ (() => {
+
+var modal_button = $('.modal_button');
+jQuery(function ($) {
+  $('.modal_button').click(function () {
+    var modal_name = $('input[name="modal_name"]').val();
+    var modal_email = $('input[name="modal_email"]').val();
+    var modal_message = $('input[name="modal_message"]').val();
+    $.ajax({
+      headers: {
+        "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content")
+      },
+      type: 'POST',
+      dataType: "json",
+      url: '/post_mail',
+      data: {
+        'name': modal_name,
+        'email': modal_email,
+        'message': modal_message
+      }
+    }).done(function (data) {
+      //成功した時の処理
+      $('#contact input').val('');
+      $('#contact textarea').val('');
+      $('#contact').empty();
+      $('#contact').append('<div id="contact_success"><div id="success_box"><p class="main_message">送信完了しました。</p></div></div>');
+      var text = ["お問合せありがとうございます。", "確認として自動メールをお送りさせていただいております。", "お問合せ内容につきましては、近日中にご返信させていただきます。"];
+      for (i = 0; i < text.length; i++) {
+        $('#success_box').append('<p class="sub_message">' + text[i] + '</p>');
+      }
+      $('#modal_section').css('display', 'none');
+    }).fail(function () {
+      //失敗した時の処理
+      alert("メールの送信に失敗しました");
+    });
+    return false;
+  });
+});
+
+/***/ }),
+
+/***/ "./resources/css/custom.scss":
+/*!***********************************!*\
+  !*** ./resources/css/custom.scss ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var [chunkIds, fn, priority] = deferred[i];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"/js/ajax": 0,
+/******/ 			"css/custom": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 			return __webpack_require__.O(result);
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+/******/ 	__webpack_require__.O(undefined, ["css/custom"], () => (__webpack_require__("./resources/js/ajax.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/custom"], () => (__webpack_require__("./resources/css/custom.scss")))
+/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+/******/ 	
+/******/ })()
+;

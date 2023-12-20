@@ -1,4 +1,5 @@
 
+// @メニューの処理@
 const floating_menu = $('.floating_menu');
 const nav_button = $('.nav_button');
 const line1 = $('.line1')
@@ -18,6 +19,8 @@ nav_button.click(()=>{
 
 })
 
+
+// @問い合わせフォーム処理
 const modal_section = $('#modal_section')
 
 function display_confirm(){
@@ -41,6 +44,7 @@ close_button.click(()=>{
 
 })
 
+// モーダル確認ボタン処理
 $('.confirm_btn').click(()=>{
     var result = true;
     var check_result = true;
@@ -67,14 +71,6 @@ $('.confirm_btn').click(()=>{
         check_result = result;
     }
 
-
-
-    console.log(result)
-
-
-
-
-
     if(check_result == false){
         alert('入力に問題があります');
         return;
@@ -83,9 +79,8 @@ $('.confirm_btn').click(()=>{
 
     display_confirm()
 
-
-
 })
+
 
 $(function(){
 	$("#contact_name").bind("change blur", function(){
@@ -93,6 +88,7 @@ $(function(){
         check_name(name);
 	});
 });
+
 function check_name(name){
 	$("#err_name").remove();
 	let ch_name = name;
@@ -144,10 +140,3 @@ function check_message(message){
     return result;
 }
 
-const sample = 9
-$('#box').click(
-    ()=>{
-        console.log(8)
-        $('#box').text('9')
-    }
-)

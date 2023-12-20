@@ -3,20 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\TestMail;
+use App\Mail\ContactMail;
+use App\Mail\AutoMail;
 use Illuminate\Support\Facades\Mail;
 
 class FrontController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('index');
     }
 
-    public function post_mail(Request $request){
+    public function post_mail(Request $request)
+    {
 
-        // Mail::send(new Testmail($request));
-        Mail::to('test@example.com')
-    ->send(new TestMail($request));
+        Mail::send(new ContactMail($request));
+        Mail::send(new AutoMail($request));
+
 
         $request->session()->regenerateToken();
 
