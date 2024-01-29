@@ -19,6 +19,7 @@ nav_button.click(function () {
 });
 
 // @問い合わせフォーム処理
+
 var modal_section = $('#modal_section');
 function display_confirm() {
   var username = $('input[name="username"]').val();
@@ -30,6 +31,8 @@ function display_confirm() {
   modal_section.css('display', 'block');
 }
 var close_button = $('.close_button');
+
+// モーダル閉じる処理
 close_button.click(function () {
   modal_section.css('display', 'none');
 });

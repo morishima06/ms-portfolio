@@ -21,6 +21,7 @@ nav_button.click(()=>{
 
 
 // @問い合わせフォーム処理
+
 const modal_section = $('#modal_section')
 
 function display_confirm(){
@@ -38,10 +39,9 @@ function display_confirm(){
 
 const close_button = $('.close_button');
 
+// モーダル閉じる処理
 close_button.click(()=>{
     modal_section.css('display','none');
-
-
 })
 
 // モーダル確認ボタン処理

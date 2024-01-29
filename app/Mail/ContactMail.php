@@ -35,8 +35,8 @@ class Contactmail extends Mailable
     public function build()
     {
         return $this
-            ->from($this->email)
-            ->to('245224aa@gmail.com')
+            ->from($this->email, 'Morishima-Shunya-Portfolio')
+            ->to(config('app.gmail_user_name'))
             ->subject('お問い合わせ')
             ->view('mail.contact_mail')
             ->with([

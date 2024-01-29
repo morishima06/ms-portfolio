@@ -39,9 +39,9 @@ class AutoMail extends Mailable
     {
 
         return $this
-            ->from('245224aa@gmail.com')
+            ->from(config('app.gmail_user_name'), 'Morishima-Shunya-Portfolio')
             ->to($this->email)
-            ->subject(config('app.name'))
+            ->subject('お問い合わせに関して')
             ->view('mail.auto_mail')
             ->with([
                 'name' => $this->name,
