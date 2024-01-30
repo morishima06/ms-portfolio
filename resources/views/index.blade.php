@@ -94,9 +94,7 @@
                     </p>
                 </div>
 
-                <video autoplay loop controls width="400px" src="storage/ttt.mov">
-                </video>
-
+<a href="https://gyazo.com/a8f919f69fe46ead047fe57ac5d7234d"><video width="1000" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/a8f919f69fe46ead047fe57ac5d7234d.mp4" type="video/mp4"/></video></a>
                 <div class="career_item">
                     <p class="career_title">学歴</p>
                     <div class="career_content">
