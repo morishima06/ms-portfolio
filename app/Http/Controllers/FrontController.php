@@ -14,6 +14,16 @@ class FrontController extends Controller
         return view('index');
     }
 
+    public function portfolio_dt(){
+         return view('portfolio_dt');
+    }
+    public function search_dt(){
+         return view('search_dt');
+    }
+    public function location_dt(){
+         return view('location_dt');
+    }
+
     public function post_mail(Request $request)
     {
 

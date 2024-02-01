@@ -13,6 +13,6 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/ajax.js', 'public/js/ajax.js')
     .js('resources/js/main.js', 'public/js/main.js')
-    .sass('resources/css/custom.scss', 'public/css/custom.css', [
-        //
-    ]);
+    .sass('resources/css/custom.scss', 'public/css/custom.css')
+    .sass('resources/css/dt.scss', 'public/css/dt.css');
+    

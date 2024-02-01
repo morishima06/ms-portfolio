@@ -94,7 +94,6 @@
                     </p>
                 </div>
 
-<a href="https://gyazo.com/a8f919f69fe46ead047fe57ac5d7234d"><video width="1000" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/a8f919f69fe46ead047fe57ac5d7234d.mp4" type="video/mp4"/></video></a>
                 <div class="career_item">
                     <p class="career_title">学歴</p>
                     <div class="career_content">
@@ -163,7 +162,7 @@
                             <div>
                                 <div>
                                     <p>es2015<br>
-                                        vanila jsでの基本的なDOM操作<br>
+                                       基本的なDOM操作<br>
 
                                     </p>
                                 </div>
@@ -248,9 +247,8 @@
                                         mailtrap<br>
                                         docker/dockercompose<br>
                                         aws<br>
-                                        npm<br>
+                                        node.js<br>
                                         linux<br>
-                                        stripe.api<br>
                                         vite<br>
                                     </p>
                                 </div>
@@ -270,41 +268,41 @@
                 <div class="work_content">
                     <div class="work_content1">
                         <div class="content1">
-                            <img src="{{asset('img/portfolio1.png')}}" alt="">
+                            <a href="https://sm-portfolio.net/"><img src="{{asset('img/portfolio1.png')}}" alt=""></a>
                         </div>
                         <h3>ポートフォリオサイト</h3>
                     </div>
                     <div class="buttons">
-                            <button class="button1" type="button">Git hub</button>
-                            <button class="button2" type="button">詳細ページ</button>
+                            <button class="button1" type="button" onclick="location.href='https://github.com/morishima06/ms-portfolio'">Git hub</button>
+                            <button class="button2" type="button" onclick="location.href='{{route('portfolio_dt')}}'">詳細ページ</button>
                     </div>
                 </div>
 
                 <div class="work_content">
                         <div class="work_content2">
                             <div class="content2">
-                                <img src="{{asset('img/search.png')}}" alt="">
+                                <a href="https://search-shops.com/"><img src="{{asset('img/search.png')}}" alt=""></a>
                             </div>
                             <h3>Search</h3>
                         </div>
                         <div class="buttons">
                             <div>
-                            <button class="button1" type="button">Git hub</button>
-                            <button class="button2" type="button">詳細ページ</button>
+                            <button class="button1" type="button" onclick="location.href='https://github.com/morishima06/search'">Git hub</button>
+                            <button class="button2" type="button" onclick="location.href='{{route('search_dt')}}'">詳細ページ</button>
                             </div>
                         </div>
                 </div>
                 <div class="work_content">
                         <div class="work_content2">
                             <div class="content2">
-                                <img src="{{asset('img/search.png')}}" alt="">
+                                <a href="https://location-shops.com/"><img src="{{asset('img/location.png')}}" alt=""></a>
                             </div>
-                            <h3>Search</h3>
+                            <h3>Location</h3>
                         </div>
                         <div class="buttons">
                             <div>
-                            <button class="button1" type="button">Git hub</button>
-                            <button class="button2" type="button">詳細ページ</button>
+                            <button class="button1" type="button" onclick="location.href='https://github.com/morishima06/location'">Git hub</button>
+                            <button class="button2" type="button" onclick="location.href='{{route('location_dt')}}'">詳細ページ</button>
                             </div>
                         </div>
                 </div>

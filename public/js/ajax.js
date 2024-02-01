@@ -57,6 +57,19 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
 
+/***/ }),
+
+/***/ "./resources/css/dt.scss":
+/*!*******************************!*\
+  !*** ./resources/css/dt.scss ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
 /***/ })
 
 /******/ 	});
@@ -146,6 +159,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/ajax": 0,
+/******/ 			"css/dt": 0,
 /******/ 			"css/custom": 0
 /******/ 		};
 /******/ 		
@@ -196,8 +210,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/custom"], () => (__webpack_require__("./resources/js/ajax.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/custom"], () => (__webpack_require__("./resources/css/custom.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/dt","css/custom"], () => (__webpack_require__("./resources/js/ajax.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/dt","css/custom"], () => (__webpack_require__("./resources/css/custom.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/dt","css/custom"], () => (__webpack_require__("./resources/css/dt.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
