@@ -47,6 +47,9 @@ h1 {
 li {
     list-style: none;
 }
+.flex{
+    display: flex;
+}
 button {
     background: none;
     border: none;
@@ -54,6 +57,14 @@ button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+input[type="text"] {
+     background-color: #f9f9f9;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px #f9f9f9 inset;
+
 }
 .floating_menu {
     height: 100vh;
@@ -238,6 +249,10 @@ button {
 }
 .about {
     font-size: 12px;
+    a:visited {
+    color: #000;
+    }
+
 }
 
 .intro {

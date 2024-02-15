@@ -29,32 +29,32 @@
         <div class="main_menu">
             <ul>
                 <div class="menu_content">
-                    <a href="">
+                    <a class="floating_link" href="#top">
                         <li class="main_list">トップ</li>
                         <li class="sub_list">top</li>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a class="floating_link" href="#experience">
                         <li class="main_list">私について</li>
                         <li class="sub_list">about</li>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a class="floating_link" href="#skill">
 
                         <li class="main_list">スキル</li>
                         <li class="sub_list">skill</li>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a class="floating_link" href="#work">
                         <li class="main_list">作品</li>
                         <li class="sub_list">work</li>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a class="floating_link" href="#contact">
                         <li class="main_list">お問い合わせ</li>
                         <li class="sub_list">contact</li>
                     </a>
@@ -72,7 +72,7 @@
     <div class="frame">
 
         <!-- トップ-->
-        <section class="section_top" id="about">
+        <section class="section_top" id="top">
             <div class="top_content">
                 <h1 class="top_text">PORTFOLIO</h1>
                 <div class="underline"></div>
@@ -87,10 +87,9 @@
             <div class="about">
                 <h1 class="content_title">私について</h1>
                 <div class="intro">
-                    <p>神奈川在住。個人事業主としてアパレル販売をしており、活動する中でアパレル版
-                        価格.comという<strong>LYST</strong>という海外のサイトに出会い、日本向けのサイトして作成してみたいと思い
-                        プログラミングを学習,作品の制作に至る。また、勉強する中でプログラミングの面白さに
-                        気付き現在プログラマーを目指し転職活動を決意。
+                    <p>神奈川在住。個人事業主としてアパレル販売する中でアパレル版価格.comという
+                        <strong><a href="https://www.lyst.com/ja-jp/" target="_blank">LYST</a></strong>
+                        という海外のサイトに出会い、日本向けのサイトして作成してみたいと思いプログラミングを学習,作品の制作に至る。また、勉強する中でより本格的にアプリの開発を行いたいと思い転職活動を決意。
                     </p>
                 </div>
 
@@ -100,6 +99,7 @@
                         <div class="career_content_in">
                             <p>日本大学 法学部 法律学科</p>
                             <p>UKGトータルクリエイティブスクール</p>
+                            <p>エステサロン/受付・管理</p>
                         </div>
                         <div class="carrer_month">
                             <p>2016年2月〜2018年6月</p>
@@ -126,24 +126,25 @@
         <hr />
 
         <!-- スキル-->
-        <section class="section_content" id="education">
+        <section class="section_content" id="skill">
             <div class="skill">
                 <h1 class="content_title">スキル</h1>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-0">
                     <div class="skill_top">
                         <div class="">
                             <div class="skill_item ">
-                                <h2 class="skill_title">言語</h2>
+                                <h2 class="skill_title"><strong>言語</strong></h2>
                                 <ul class="skill_list_item">
                                     <li class="skill_list">Html</li>
                                     <li class="skill_list">Css</li>
                                     <li class="skill_list">Php</li>
                                     <li class="skill_list">Javascript</li>
                                     <li class="skill_list">Python</li>
+                                    <li class="skill_list">Mysql</li>
                                 </ul>
                             </div>
                             <div class="skill_item">
-                                <h2 class="skill_title">フレームワーク</h2>
+                                <h2 class="skill_title"><strong>フレームワーク</strong></h2>
                                 <ul class="skill_list_item">
                                     <li class="skill_list">React</li>
                                     <li class="skill_list">Jquery</li>
@@ -154,15 +155,14 @@
                                 </ul>
                             </div>
                         </div>
-                        <h2 class="study_title">学習内容/できること</h2>
                         <div class="study_item">
                             <div class="study_subject">
-                                <h3>javascript</h3>
+                                <h3>Javascript</h3>
                             </div>
                             <div>
                                 <div>
                                     <p>es2015<br>
-                                       基本的なDOM操作<br>
+                                        DOM操作<br>
 
                                     </p>
                                 </div>
@@ -181,7 +181,7 @@
 
                         <div class="study_item">
                             <div class="study_subject">
-                                <h3>css</h3>
+                                <h3>Css</h3>
                             </div>
                             <div>
                                 <div>
@@ -192,7 +192,7 @@
                         </div>
                         <div class="study_item">
                             <div class="study_subject">
-                                <h3>python</h3>
+                                <h3>Python</h3>
                             </div>
                             <div>
                                 <div>
@@ -203,7 +203,7 @@
                         </div>
                         <div class="study_item">
                             <div class="study_subject">
-                                <h3>laravel</h3>
+                                <h3>Laravel</h3>
                             </div>
                             <div>
                                 <div>
@@ -218,7 +218,7 @@
                         </div>
                         <div class="study_item">
                             <div class="study_subject">
-                                <h3>react</h3>
+                                <h3>React</h3>
                             </div>
                             <div>
                                 <div>
@@ -242,14 +242,16 @@
                                         homebrew/nodebrew<br>
                                         mamp<br>
                                         wordpress<br>
-                                        git hub<br>
-                                        mysql<br>
+                                        github/git hub actions<br>
                                         mailtrap<br>
                                         docker/dockercompose<br>
                                         aws<br>
                                         node.js<br>
                                         linux<br>
-                                        vite<br>
+                                        heroku<br>
+                                        vite/webpack<br>
+                                        phpmyadmin/sequel ace<br>
+
                                     </p>
                                 </div>
                             </div>
@@ -264,7 +266,7 @@
         <section class="section_content" id="work">
             <h1 class="content_title">作品</h1>
             <div class="work">
-                
+
                 <div class="work_content">
                     <div class="work_content1">
                         <div class="content1">
@@ -273,38 +275,38 @@
                         <h3>ポートフォリオサイト</h3>
                     </div>
                     <div class="buttons">
-                            <button class="button1" type="button" onclick="location.href='https://github.com/morishima06/ms-portfolio'">Git hub</button>
-                            <button class="button2" type="button" onclick="location.href='{{route('portfolio_dt')}}'">詳細ページ</button>
+                        <button class="button1" type="button" onclick="location.href='https://github.com/morishima06/ms-portfolio'">Git hub</button>
+                        <button class="button2" type="button" onclick="location.href='{{route('portfolio_dt')}}'">詳細ページ</button>
                     </div>
                 </div>
 
                 <div class="work_content">
-                        <div class="work_content2">
-                            <div class="content2">
-                                <a href="https://search-shops.com/"><img src="{{asset('img/search.png')}}" alt=""></a>
-                            </div>
-                            <h3>Search</h3>
+                    <div class="work_content2">
+                        <div class="content2">
+                            <a href="https://search-shops.com/"><img src="{{asset('img/search.png')}}" alt=""></a>
                         </div>
-                        <div class="buttons">
-                            <div>
+                        <h3>Search</h3>
+                    </div>
+                    <div class="buttons">
+                        <div>
                             <button class="button1" type="button" onclick="location.href='https://github.com/morishima06/search'">Git hub</button>
                             <button class="button2" type="button" onclick="location.href='{{route('search_dt')}}'">詳細ページ</button>
-                            </div>
                         </div>
+                    </div>
                 </div>
                 <div class="work_content">
-                        <div class="work_content2">
-                            <div class="content2">
-                                <a href="https://location-shops.com/"><img src="{{asset('img/location.png')}}" alt=""></a>
-                            </div>
-                            <h3>Location</h3>
+                    <div class="work_content2">
+                        <div class="content2">
+                            <a href="https://location-shops.com/"><img src="{{asset('img/location.png')}}" alt=""></a>
                         </div>
-                        <div class="buttons">
-                            <div>
+                        <h3>Location</h3>
+                    </div>
+                    <div class="buttons">
+                        <div>
                             <button class="button1" type="button" onclick="location.href='https://github.com/morishima06/location'">Git hub</button>
                             <button class="button2" type="button" onclick="location.href='{{route('location_dt')}}'">詳細ページ</button>
-                            </div>
                         </div>
+                    </div>
                 </div>
 
 
@@ -378,4 +380,5 @@
 </body>
 <script src="/js/ajax.js"></script>
 <script src="/js/main.js"></script>
+
 </html>

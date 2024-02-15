@@ -1,27 +1,27 @@
-
 // @メニューの処理@
 const floating_menu = $('.floating_menu');
 const nav_button = $('.nav_button');
 const line1 = $('.line1')
 const line2 = $('.line2')
 const line3 = $('.line3')
-
+const floating_link = $('.floating_link')
 
 nav_button.click(()=>{
-
     floating_menu.toggleClass('menu_active')
     // $(".menu_active").fadeToggle(1500);
-
-
     line1.toggleClass('line1_active');
     line2.toggleClass('line2_active');
     line3.toggleClass('line3_active');
-
 })
 
+floating_link.click(()=>{
+        floating_menu.toggleClass('menu_active')
+    line1.toggleClass('line1_active');
+    line2.toggleClass('line2_active');
+    line3.toggleClass('line3_active');
+})
 
 // @問い合わせフォーム処理
-
 const modal_section = $('#modal_section')
 
 function display_confirm(){
@@ -49,7 +49,6 @@ $('.confirm_btn').click(()=>{
     var result = true;
     var check_result = true;
 
-
     $('#err_textarea').empty();
 
     var name = $("#contact_name").val();
@@ -63,7 +62,6 @@ $('.confirm_btn').click(()=>{
     if(!result){
         check_result = result;
     }
-
     
     var message = $("#contact_message").val();
     result = check_message(message);
@@ -75,12 +73,8 @@ $('.confirm_btn').click(()=>{
         alert('入力に問題があります');
         return;
     }
-
-
     display_confirm()
-
 })
-
 
 $(function(){
 	$("#contact_name").bind("change blur", function(){
@@ -139,4 +133,3 @@ function check_message(message){
 	}
     return result;
 }
-

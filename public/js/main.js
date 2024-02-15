@@ -9,17 +9,22 @@ var nav_button = $('.nav_button');
 var line1 = $('.line1');
 var line2 = $('.line2');
 var line3 = $('.line3');
+var floating_link = $('.floating_link');
 nav_button.click(function () {
   floating_menu.toggleClass('menu_active');
   // $(".menu_active").fadeToggle(1500);
-
+  line1.toggleClass('line1_active');
+  line2.toggleClass('line2_active');
+  line3.toggleClass('line3_active');
+});
+floating_link.click(function () {
+  floating_menu.toggleClass('menu_active');
   line1.toggleClass('line1_active');
   line2.toggleClass('line2_active');
   line3.toggleClass('line3_active');
 });
 
 // @問い合わせフォーム処理
-
 var modal_section = $('#modal_section');
 function display_confirm() {
   var username = $('input[name="username"]').val();
