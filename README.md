@@ -30,4 +30,4 @@ https://sm-portfolio.net/
 - <a href="https://location-shops.com/" target="_blank">location(アパレルショップ検索サイト)</a>
 
 # 機能
-お問合せフォーム
+- お問合せフォーム
