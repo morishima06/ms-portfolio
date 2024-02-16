@@ -4,12 +4,19 @@
 </div>
 https://sm-portfolio.net/
 
-# 使用環境
+# サ-ビス概要
+ポートフォリオサイト
+<p><a href="https://sm-portfolio.net/portfolio_dt">詳しい制作過程はこちらから</a></p>
+
+
+
+
+# 使用技術・言語・環境
 
 - PHP8.08
 - Laravel 8.83.23
 - Javascript(jquery)
- - ajax
+- ajax
 - sass(css)
 - webpack/laravel mix(ビルドツール)
 - heroku
@@ -18,8 +25,8 @@ https://sm-portfolio.net/
 
 
 # 制作サイト一覧
-<li><a href="https://search-shops.com/" target="_blank">search(Ecサイト)</a></li>
-<li><a href="https://location-shops.com/" target="_blank">location(アパレルショップ検索サイト)</a></li>
+- <a href="https://search-shops.com/" target="_blank">search(Ecサイト)</a>
+- <a href="https://location-shops.com/" target="_blank">location(アパレルショップ検索サイト)</a>
 
 # 機能
 お問合せフォーム
