@@ -6,7 +6,7 @@ https://sm-portfolio.net/
 
 # サ-ビス概要
 ポートフォリオサイト
-<p><a href="https://sm-portfolio.net/portfolio_dt">詳しい制作過程はこちらから</a></p>
+<p><a href="https://sm-portfolio.net/portfolio_dt" target="_blank">詳しい制作過程はこちらから</a></p>
 
 
 
