@@ -16,10 +16,11 @@ https://sm-portfolio.net/
 - PHP8.08
 - Laravel 8.83.23
 - Javascript(jquery)
-- ajax
+  - ajax
 - sass(css)
 - webpack/laravel mix(ビルドツール)
 - heroku
+- mail trap(メールテスト)
 - お名前.com(DNS)
 - cloudFlare(ssl)
 
