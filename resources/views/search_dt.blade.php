@@ -41,7 +41,9 @@
     <li>javascript/jquery</li>
     <li>Mysql5.7.3.4</li>
     <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- php myadmin</li>
+    <li>Stripe API</li>
     <li>webpack/laravelmix(ビルドツール)</li>
+    <li>mail trap(メールテスト)</li>
     <li>AWS</li>
     <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- VPC(EC2(Amazon Linux2/APACHE)/RDS/S3/ELB/Route53)</li>
     <li>Git hub actions(ci/cd)</li>
