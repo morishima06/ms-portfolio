@@ -118,7 +118,7 @@
     <div>
       <h4>決済画面</h4>
       <p>StripeAPIで決済してます<br>
-        TESモードのため実際には決済はされてませんが決済が終わると
+        TESTモードのため実際には決済はされてませんが決済が終わると
         決済確認画面の表示となります。
       </p>
       <a href="https://gyazo.com/1b275523c302277fece4bca2329c4a9a"><img src="https://i.gyazo.com/1b275523c302277fece4bca2329c4a9a.gif" alt="Image from Gyazo" width="500" /></a>
