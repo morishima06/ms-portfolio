@@ -12,14 +12,12 @@
         <a href="https://sm-portfolio.net/" target="_blank">
             <img width="500" src="{{asset('img/portfolio1.png')}}" alt="">
         </a>
-
         <p>
             HP:<a href="https://sm-portfolio.net/" target="_blank">https://sm-portfolio.net/</a>
         </p>
         <p>
             Git hub:<a href="https://github.com/morishima06/ms-portfolio" target="_blank">https://github.com/morishima06/ms-portfolio</a>
         </p>
-
         <h1> 使用環境</h1>
         <div class="horizontal"></div>
         <li>PHP8.08</li>
@@ -42,9 +40,8 @@
             ↓<br>
             <strong>本番環境</strong><br>
             Laravel/Mysql<br>
-            Aws(apache)
+            heroku(apache)
         </p>
-
 
         <h1>制作サイト一覧</h1>
         <div class="horizontal"></div>
@@ -54,7 +51,6 @@
         <div class="horizontal"></div>
         <li>お問い合わせフォーム</li>
         <h2>主な機能</h2>
-
         <p>
             初期はバックエンドでバリデーションしていましたが入力フォームにてjqueryにてバリデーションしてます。<br>
             入力がなければメッセージが発生します。
