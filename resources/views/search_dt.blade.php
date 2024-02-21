@@ -41,7 +41,7 @@
     <li>javascript/jquery</li>
     <li>Mysql5.7.3.4</li>
     <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- php myadmin</li>
-    <li>Stripe API</li>
+    <li>Stripe API(決済機能)</li>
     <li>webpack/laravelmix(ビルドツール)</li>
     <li>mail trap(メールテスト)</li>
     <li>AWS</li>
@@ -54,7 +54,7 @@
       Laravel/Mysql<br>
       Mamp(apache)<br>
       ↓<br>
-      github/github actions(ビルド＋デプロイ)<br>
+      github/github actions(デプロイ)<br>
       ↓<br>
       <strong>本番環境</strong><br>
       Laravel/Mysql<br>
@@ -140,10 +140,9 @@
 
     <p>
       とにかく完成させることを目的としていたため、コードがかなり雑な作りになってしまったと思います。<br>
-      動いてはいますが、FatControllerになってしまっていたり,N+1,テーブル正規化といった保守、<br>
-      パフォーマンスの面で所々抜け落ちてるとある程度知識がついた現在では感じます。<br>
+      動いてはいますが、FatControllerになってしまっていたり,N+1,テーブル正規化といった保守、パフォーマンスの面で所々抜け落ちてるとある程度知識がついた現在では感じます。<br>
       結果論ですが、Blade構文ではなくReact,Vueあたりでフロントを作った方が後々勉強してるので時間効率が良かったなと思いますし、
-      デザインを特に意識して作成してないため、テンプレートを流し込んだ方が良かったなと少し悔やまれます。
+      デザインを意識して作成してないため、テンプレートを流し込んだ方が時間効率良かったなと感じました。
     </p>
 
     <h2>今後、実装したいこと</h2>
