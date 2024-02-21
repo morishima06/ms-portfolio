@@ -14,7 +14,7 @@
     </a>
     <p>
       HP:
-      <a href="https://search-shops.com/">
+      <a href="https://search-shops.com/" target="_blank">
         https://search-shops.com/
       </a>
     </p>
