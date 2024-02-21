@@ -37,6 +37,7 @@
     <li>PHP8.08</li>
     <li>Laravel8.83.23</li>
     <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- laravel breeze(ログイン機能)</li>
+    <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- laravel Query Detector (n+1検知)</li>
     <li>tailwind3.1.0(css)</li>
     <li>javascript/jquery</li>
     <li>Mysql5.7.3.4</li>
