@@ -37,9 +37,8 @@
     <li>PHP8.08</li>
     <li>Laravel8.83.23</li>
     <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- laravel breeze(ログイン機能)</li>
-    <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- laravel Query Detector (n+1検知)</li>
     <li>tailwind3.1.0(css)</li>
-    <li>javascript/jquery</li>
+    <li>javascript/jquery/Alpine.js</li>
     <li>Mysql5.7.3.4</li>
     <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- php myadmin</li>
     <li>Stripe API(決済機能)</li>
@@ -74,7 +73,7 @@
     <li>カート機能(session管理)</li>
     <li>決済機能(stripe Api)</li>
     <li>お問合せフォーム</li>
-    <li>loading画面cssアニメーション</li>
+    <li>loading画面アニメーション</li>
     <li>レスポンシブ対応</li>
 
     <h2>主な機能</h2>

@@ -52,6 +52,7 @@
     <li>PHP8.2.15</li>
     <li>Laravel9.52.7</li>
     <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- laravel breeze(ログイン機能)</li>
+    <li class="list_none">&nbsp;&nbsp;&nbsp;&nbsp;- laravel query detector(n+1検知)</li>
     <li>Inertia.js</li>
     <li>tailwind css3.2.1</li>
     <li>Mysql</li>
@@ -160,8 +161,6 @@
       本番環境は手動で環境構築しためコンテナデプロイに変更させたいと思います。<br>
       また,CI/CDですが自動でビルドとデプロイをさせているだけでGit hub actionsのOS内でテストからビルドすることができていないのでコンテナデプロイ含めて実装したいと思います。
     </p>
-
-
 
     <h2>制作を終えて</h2>
     <p>
