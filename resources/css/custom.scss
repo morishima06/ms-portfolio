@@ -71,11 +71,14 @@ input:-webkit-autofill {
     width: 100%;
     position: fixed;
     background-color: #000;
-    color: #fff;
     z-index: 4;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
+
+    a{
+       color: #fff;
+    }
 
     a:hover {
         color: #606060;

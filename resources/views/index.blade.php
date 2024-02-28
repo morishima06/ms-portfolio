@@ -42,7 +42,6 @@
                 </div>
                 <div>
                     <a class="floating_link" href="#skill">
-
                         <li class="main_list">スキル</li>
                         <li class="sub_list">skill</li>
                     </a>
