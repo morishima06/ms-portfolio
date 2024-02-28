@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <div class="career_item">
-                    <p class="career_title">経歴</p>
+                    <p class="career_title">職歴</p>
                     <div class="career_content">
                         <div class="career_content_in">
                             <p>アニメーション制作/制作進行</p>
