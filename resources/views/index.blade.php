@@ -29,29 +29,43 @@
         <div class="main_menu">
             <ul>
                 <div class="menu_content">
-                    <li class="main_list"><a class="floating_link" href="#top">トップ</a></li>
-                    <li class="sub_list"><a class="floating_link" href="#top">top</a></li>
+                    <a class="floating_link" href="#top">
+                        <li class="main_list">
+                            トップ <br>
+                            <span class="sub_list">top</span>
+                        </li>
+                    </a>
                 </div>
-                <div>
-                    <li class="main_list"> <a class="floating_link" href="#experience">私について</a></li>
-                    <li class="sub_list"> <a class="floating_link" href="#experience">about</a></li>
+                <div class="menu_content">
+                    <a class="floating_link" href="#experience">
+                        <li class="main_list">
+                            私について
+                            <br><span class="sub_list">about</span>
+                        </li>
+                    </a>
                 </div>
-                <div>
+                <div class="menu_content">
                     <a class="floating_link" href="#skill">
-                        <li class="main_list">スキル</li>
-                        <li class="sub_list">skill</li>
+                        <li class="main_list">
+                            スキル
+                            <br><span class="sub_list">skill</span>
+                        </li>
                     </a>
                 </div>
-                <div>
+                <div class="menu_content">
                     <a class="floating_link" href="#work">
-                        <li class="main_list">作品</li>
-                        <li class="sub_list">work</li>
+                        <li class="main_list">
+                            作品
+                            <br><span class="sub_list">work</span>
+                        </li>
                     </a>
                 </div>
-                <div>
+                <div class="menu_content">
                     <a class="floating_link" href="#contact">
-                        <li class="main_list">お問い合わせ</li>
-                        <li class="sub_list">contact</li>
+                        <li class="main_list">
+                            お問い合わせ
+                            <br><span class="sub_list">contact</span>
+                        </li>
                     </a>
                 </div>
             </ul>

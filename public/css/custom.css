@@ -64,9 +64,6 @@ input:-webkit-autofill {
   visibility: hidden;
   transition: 1s;
 }
-.floating_menu a {
-  color: #fff;
-}
 .floating_menu a:hover {
   color: #606060;
 }
@@ -75,6 +72,13 @@ input:-webkit-autofill {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.floating_link li {
+  color: #fff;
+}
+.floating_link li:hover {
+  color: #606060;
 }
 
 .menu_active {
@@ -86,7 +90,7 @@ input:-webkit-autofill {
 .main_list {
   font-size: 32px;
   font-weight: 600;
-  margin-top: 20px;
+  padding-bottom: 30px;
   line-height: 0.8;
   text-align: center;
 }
