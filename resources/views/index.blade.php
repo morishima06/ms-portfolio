@@ -391,5 +391,22 @@
 </body>
 <script src="/js/ajax.js"></script>
 <script src="/js/main.js"></script>
+<script>
+    $(".floating_link").on("mouseover", function() {
+        $(this).css({
+            color: "#4dc0b2",
+            backgroundColor: "#ffc042"
+        });
+    });
+
+    //マウスアウトしたときに元の色に戻る
+    $(".floating_link").on("mouseout", function() {
+        $(".floating_link").css({
+            color: "",
+            backgroundColor: ""
+        });
+    });
+</script>
+
 
 </html>

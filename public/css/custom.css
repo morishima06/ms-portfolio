@@ -73,9 +73,6 @@ input:-webkit-autofill {
 .floating_menu .floating_link:link {
   color: #fff;
 }
-.floating_menu .floating_link:hover {
-  color: #606060;
-}
 
 .menu_active {
   transition: 1s;
