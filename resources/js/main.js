@@ -136,13 +136,13 @@ function check_message(message){
 
     $(".floating_link").on("mouseover", function() {
         $(this).css({
-            color: "#606060",
+            color: "#808080",
         });
     });
 
     //マウスアウトしたときに元の色に戻る
     $(".floating_link").on("mouseout", function() {
-        $(".floating_link").css({
+        $(this).css({
             color: "",
         });
     });

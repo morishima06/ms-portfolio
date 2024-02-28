@@ -30,7 +30,7 @@ body {
 a {
     text-decoration: none;
 }
-a:visited {
+a {
     color: #fff;
 }
 hr {
@@ -81,12 +81,7 @@ input:-webkit-autofill {
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
-        .floating_link:link{
-                color: #fff;
-     }
-
 
 }
 .menu_active {
