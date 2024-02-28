@@ -29,16 +29,12 @@
         <div class="main_menu">
             <ul>
                 <div class="menu_content">
-                    <a class="floating_link" href="#top">
-                        <li class="main_list">トップ</li>
-                        <li class="sub_list">top</li>
-                    </a>
+                    <li class="main_list"><a class="floating_link" href="#top">トップ</a></li>
+                    <li class="sub_list"><a class="floating_link" href="#top">top</a></li>
                 </div>
                 <div>
-                    <a class="floating_link" href="#experience">
-                        <li class="main_list">私について</li>
-                        <li class="sub_list">about</li>
-                    </a>
+                    <li class="main_list"> <a class="floating_link" href="#experience">私について</a></li>
+                    <li class="sub_list"> <a class="floating_link" href="#experience">about</a></li>
                 </div>
                 <div>
                     <a class="floating_link" href="#skill">
