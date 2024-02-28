@@ -64,24 +64,17 @@ input:-webkit-autofill {
   visibility: hidden;
   transition: 1s;
 }
-.floating_menu a:hover {
-  color: #606060;
-}
-.floating_menu a:link {
-  color: #fff;
-}
-.floating_menu a:visited {
-  color: #fff;
-}
 .floating_menu .main_menu {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.floating_link li:hover {
+.floating_menu .floating_link:hover {
   color: #606060;
+}
+.floating_menu .floating_link:link {
+  color: #fff;
 }
 
 .menu_active {

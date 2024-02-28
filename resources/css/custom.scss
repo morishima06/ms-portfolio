@@ -75,18 +75,6 @@ input:-webkit-autofill {
     opacity: 0;
     visibility: hidden;
     transition: 1s;
-    
-
-    a:hover {
-        color: #606060;
-    }
-    a:link{
-        color: #fff;
-    }
-    a:visited{
-        color: #fff;
-    }
-
 
     .main_menu {
         height: 100%;
@@ -94,11 +82,13 @@ input:-webkit-autofill {
         justify-content: center;
         align-items: center;
     }
-}
-.floating_link{
-    li:hover{
-        color: #606060;
+    .floating_link:hover{
+                color: #606060;
     }
+    .floating_link:link{
+                color: #fff;
+     }
+
 }
 .menu_active {
     transition: 1s;
