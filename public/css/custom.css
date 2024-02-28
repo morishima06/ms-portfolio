@@ -70,11 +70,11 @@ input:-webkit-autofill {
   justify-content: center;
   align-items: center;
 }
-.floating_menu .floating_link:hover {
-  color: #606060;
-}
 .floating_menu .floating_link:link {
   color: #fff;
+}
+.floating_menu .floating_link:hover {
+  color: #606060;
 }
 
 .menu_active {
