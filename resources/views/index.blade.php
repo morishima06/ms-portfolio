@@ -146,6 +146,7 @@
                                     <li class="skill_list">Css</li>
                                     <li class="skill_list">Php</li>
                                     <li class="skill_list">Javascript</li>
+                                    <li class="skill_list">Typescript</li>
                                     <li class="skill_list">Python</li>
                                     <li class="skill_list">Mysql</li>
                                 </ul>
