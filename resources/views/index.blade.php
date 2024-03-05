@@ -279,7 +279,7 @@
                 <div class="work_content">
                     <div class="work_content1">
                         <div class="content1">
-                            <a href="https://sm-portfolio.net/"><img src="{{asset('img/portfolio1.png')}}" alt=""></a>
+                            <a href="https://sm-portfolio.net/"><img src="{{asset('img/portfolio.jpg')}}" alt=""></a>
                         </div>
                         <h3>ポートフォリオサイト</h3>
                     </div>
@@ -306,7 +306,7 @@
                 <div class="work_content">
                     <div class="work_content2">
                         <div class="content2">
-                            <a href="https://location-shops.com/"><img src="{{asset('img/location.png')}}" alt=""></a>
+                            <a href="https://location-shops.com/"><img src="{{asset('img/location.jpg')}}" alt=""></a>
                         </div>
                         <h3>Location</h3>
                     </div>
