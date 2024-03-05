@@ -10,7 +10,7 @@
     <h1> search</h1>
     <div class="horizontal"></div>
     <a href="https://search-shops.com/" target="_blank">
-      <img src="{{asset('img/search_screen.png}}" alt="" width="500">
+      <img src="{{asset('img/search_screen.png')}}" alt="" width="500">
     </a>
     <p>
       HP:

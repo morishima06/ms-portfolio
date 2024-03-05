@@ -10,7 +10,7 @@
         <h1> ポートフォリオサイト</h1>
         <div class="horizontal"></div>
         <a href="https://sm-portfolio.net/" target="_blank">
-            <img width="500" src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com//portfolio.png" alt="">
+            <img width="500" src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/portfolio.png" alt="">
         </a>
         <p>
             HP:<a href="https://sm-portfolio.net/" target="_blank">https://sm-portfolio.net/</a>
