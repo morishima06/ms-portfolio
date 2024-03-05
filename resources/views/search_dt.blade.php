@@ -10,7 +10,7 @@
     <h1> search</h1>
     <div class="horizontal"></div>
     <a href="https://search-shops.com/" target="_blank">
-      <img src="{{asset('img/search_screen.png')}}" alt="" width="500">
+      <img src="{{asset('img/search_screen.png" alt="" width="500">
     </a>
     <p>
       HP:
@@ -127,33 +127,33 @@
       <h4>Stripe管理画面</h4>
       <p>Stripeサイトでも決済完了が確認されました</p>
       <img src="{{asset('img/search_stripe_screen.png')}}" alt="" width="500">
-    </div>
+  </div>
 
 
-    <h1> ER図</h1>
-    <div class="horizontal"></div>
+  <h1> ER図</h1>
+  <div class="horizontal"></div>
 
-    <img src="https://github.com/morishima06/search/assets/91010416/bcd65dc9-ee06-48c9-8c39-f4dbd4e9d147" alt="">
-    <h1>総評</h1>
-    <div class="horizontal"></div>
-    <h2>感想</h2>
+  <img src="https://github.com/morishima06/search/assets/91010416/bcd65dc9-ee06-48c9-8c39-f4dbd4e9d147" alt="">
+  <h1>総評</h1>
+  <div class="horizontal"></div>
+  <h2>感想</h2>
 
-    <p>
-      とにかく完成させることを目的としていたため、コードがかなり雑な作りになってしまったと思います。<br>
-      動いてはいますが、FatControllerになってしまっていたり,N+1,テーブル正規化といった保守、パフォーマンスの面で所々抜け落ちてるとある程度知識がついた現在では感じます。<br>
-      結果論ですが、Blade構文ではなくReact,Vueあたりでフロントを作った方が後々勉強してるので時間効率が良かったなと思いますし、
-      デザインを意識して作成してないため、テンプレートを流し込んだ方が時間効率良かったなと感じました。
-    </p>
+  <p>
+    とにかく完成させることを目的としていたため、コードがかなり雑な作りになってしまったと思います。<br>
+    動いてはいますが、FatControllerになってしまっていたり,N+1,テーブル正規化といった保守、パフォーマンスの面で所々抜け落ちてるとある程度知識がついた現在では感じます。<br>
+    結果論ですが、Blade構文ではなくReact,Vueあたりでフロントを作った方が後々勉強してるので時間効率が良かったなと思いますし、
+    デザインを意識して作成してないため、テンプレートを流し込んだ方が時間効率良かったなと感じました。
+  </p>
 
-    <h2>今後、実装したいこと</h2>
-    <h3>会員登録機能の充実</h3>
-    <p>
-      ワンタイムパスワードでの会員登録、マルチ認証を実装したいなと思います。<br>
-      また、laravel BreezeではなくJet streamもしくは独自で機能を作っていきたいと思います。
-    </p>
-    <h3>カートのロック機能</h3>
-    <p>
-      カートにロックを付けて商品購入のバッティング防止策を実装したいと思います。
-    </p>
+  <h2>今後、実装したいこと</h2>
+  <h3>会員登録機能の充実</h3>
+  <p>
+    ワンタイムパスワードでの会員登録、マルチ認証を実装したいなと思います。<br>
+    また、laravel BreezeではなくJet streamもしくは独自で機能を作っていきたいと思います。
+  </p>
+  <h3>カートのロック機能</h3>
+  <p>
+    カートにロックを付けて商品購入のバッティング防止策を実装したいと思います。
+  </p>
   </div>
 </body>

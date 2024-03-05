@@ -10,7 +10,7 @@
     <h1>LOCATION</h1>
     <div class="horizontal"></div>
     <a href="https://location-shops.com/" target="_blank">
-      <img src="{{asset('img/location_screen.png')}}" alt="" width="500">
+      <img src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/location_screen.png" alt="" width="500">
     </a>
     <p>
       HP:

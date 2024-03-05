@@ -10,7 +10,7 @@
         <h1> ポートフォリオサイト</h1>
         <div class="horizontal"></div>
         <a href="https://sm-portfolio.net/" target="_blank">
-            <img width="500" src="{{asset('img/portfolio1.png')}}" alt="">
+            <img width="500" src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com//portfolio.png" alt="">
         </a>
         <p>
             HP:<a href="https://sm-portfolio.net/" target="_blank">https://sm-portfolio.net/</a>
@@ -74,14 +74,14 @@
                     送信者に自動メールを送っています。
                 </p>
                 <div class="movie">
-                    <img width="500" src="{{asset('img/portfolio_screen_mail1.png')}}" alt="" style="width: 300px;">
+                    <img width="500" src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/portfolio_screen_mail1.png" alt="" style="width: 300px;">
                 </div>
             </div>
             <div>
                 <h3>受信メール</h3>
                 <p>お問い合わせメールになります。</p>
                 <div class="movie">
-                    <img width="500" src="{{asset('img/portfolio_screen_mail2.png')}}" alt="" style="width: 300px;">
+                    <img width="500" src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/portfolio_screen_mail2.png" alt="" style="width: 300px;">
                 </div>
             </div>
         </div>

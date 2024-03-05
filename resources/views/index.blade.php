@@ -279,7 +279,7 @@
                 <div class="work_content">
                     <div class="work_content1">
                         <div class="content1">
-                            <a href="https://sm-portfolio.net/"><img src="{{asset('img/portfolio1.png')}}" alt=""></a>
+                            <a href="https://sm-portfolio.net/"><img src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/portfolio.png" alt=""></a>
                         </div>
                         <h3>ポートフォリオサイト</h3>
                     </div>
@@ -292,7 +292,7 @@
                 <div class="work_content">
                     <div class="work_content2">
                         <div class="content2">
-                            <a href="https://search-shops.com/"><img src="{{asset('img/search1.png')}}" alt=""></a>
+                            <a href="https://search-shops.com/"><img src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/search.png" alt=""></a>
                         </div>
                         <h3>Search</h3>
                     </div>
@@ -306,7 +306,7 @@
                 <div class="work_content">
                     <div class="work_content2">
                         <div class="content2">
-                            <a href="https://location-shops.com/"><img src="{{asset('img/location1.png')}}" alt=""></a>
+                            <a href="https://location-shops.com/"><img src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/location.png" alt=""></a>
                         </div>
                         <h3>Location</h3>
                     </div>
@@ -361,7 +361,7 @@
         <form id="" method="post" class="modal_form">
             <div class="close_button_section">
                 <button type="button" class="close_button">
-                    <img class="close_button" src="{{asset('img/close_button.png')}}" alt="">
+                    <img class="close_button" src="https://sm-portfolio-s3.s3.ap-northeast-1.amazonaws.com/close_button.png" alt="">
                 </button>
             </div>
             <div class="modal_main_section">
